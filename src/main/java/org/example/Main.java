@@ -23,13 +23,13 @@ public class Main {
         // Не считайте в уме итоговую сумму, расчёт итоговой суммы должна производить сама программа.
 
         System.out.println("Задание 2:");
-        double income;
-        double spending;
+        int income;
+        int spending;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите сумму дохода:");
-        income = scanner.nextDouble();
+        income = scanner.nextInt();
         System.out.println("Введите сумму расходов:");
-        spending = scanner.nextDouble();
+        spending = scanner.nextInt();
         System.out.println("Итого (руб):\n" + (income - spending));
     }
 }
