@@ -1,9 +1,9 @@
-package org.example;
+package org.alexz.hw1;
 
 
 import java.util.Scanner;
 
-public class Main {
+public class HW1 {
     public static void main(String[] args) {
 
         // Задание 1
